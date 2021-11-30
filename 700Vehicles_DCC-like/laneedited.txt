@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+  <vType accel="3.0" decel="6.0" id="CarA" length="4.0" minGap="2" maxSpeed="40.0" sigma="0" />
+  <vType accel="1.0" decel="5.0" id="Car" length="5.0" minGap="2.0" maxSpeed="40.0" sigma="0.9" impatience="1.0"  />
+
+  <route id="route0" edges="1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out"/>
+<route id="route1" edges="out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 out 1to2 "/>
+  
+
+    <vehicle depart="0" id="00" route="route0" departPos="33"  departLane="3"  arrivalLane="3" departSpeed="0"  type="CarA"  color="0,0,1" /> 
+
+  <vehicle depart="0" id="01" route="route0" departPos="25"  departLane="3"  arrivalLane="3" departSpeed="0" type="CarA"  color="0,1,1" /> 
+
+  <vehicle depart="0" id="02" route="route0" departPos="17"  departLane="3"  arrivalLane="3" departSpeed="0"  type="CarA" color="0,0,1" /> 
+
+  <vehicle depart="0" id="03" route="route0" type="CarA" departLane="3"  arrivalLane="3" departPos="9"  departSpeed="0"  color="0,1,1" /> 
+
+  <vehicle depart="0" id="04" route="route0" departPos="1"  departLane="3"  arrivalLane="3" departSpeed="0"  type="CarA" color="0,0,1" /> 
+
+<vehicle depart="0" id="5"  route= "route0" type="Car" departLane="0" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="6"  route= "route0" type="Car" departLane="0" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="7"  route= "route0" type="Car" departLane="0" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="8"  route= "route0" type="Car" departLane="0" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="9"  route= "route0" type="Car" departLane="0" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="10"  route= "route0" type="Car" departLane="0" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="11"  route= "route0" type="Car" departLane="0" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="12"  route= "route0" type="Car" departLane="0" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="13"  route= "route0" type="Car" departLane="0" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="14"  route= "route0" type="Car" departLane="0" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="15"  route= "route0" type="Car" departLane="0" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="16"  route= "route0" type="Car" departLane="0" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="17"  route= "route0" type="Car" departLane="0" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="18"  route= "route0" type="Car" departLane="0" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="19"  route= "route0" type="Car" departLane="0" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="20"  route= "route0" type="Car" departLane="0" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="21"  route= "route0" type="Car" departLane="0" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="22"  route= "route0" type="Car" departLane="0" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="23"  route= "route0" type="Car" departLane="0" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="24"  route= "route0" type="Car" departLane="0" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="25"  route= "route0" type="Car" departLane="0" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="26"  route= "route0" type="Car" departLane="1" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="27"  route= "route0" type="Car" departLane="1" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="28"  route= "route0" type="Car" departLane="1" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="29"  route= "route0" type="Car" departLane="1" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="30"  route= "route0" type="Car" departLane="1" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="31"  route= "route0" type="Car" departLane="1" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="32"  route= "route0" type="Car" departLane="1" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="33"  route= "route0" type="Car" departLane="1" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="34"  route= "route0" type="Car" departLane="1" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="35"  route= "route0" type="Car" departLane="1" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="36"  route= "route0" type="Car" departLane="1" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="37"  route= "route0" type="Car" departLane="1" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="38"  route= "route0" type="Car" departLane="1" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="39"  route= "route0" type="Car" departLane="1" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="40"  route= "route0" type="Car" departLane="1" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="41"  route= "route0" type="Car" departLane="1" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="42"  route= "route0" type="Car" departLane="1" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="43"  route= "route0" type="Car" departLane="1" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="44"  route= "route0" type="Car" departLane="1" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="45"  route= "route0" type="Car" departLane="1" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="46"  route= "route0" type="Car" departLane="1" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="47"  route= "route0" type="Car" departLane="1" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="48"  route= "route0" type="Car" departLane="1" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="49"  route= "route0" type="Car" departLane="2" departPos="random_free" departSpeed="random"/> <vehicle depart="0" id="50"  route= "route0" type="Car" departLane="2" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="51"  route= "route0" type="Car" departLane="2" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="52"  route= "route0" type="Car" departLane="2" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="53"  route= "route0" type="Car" departLane="2" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="54"  route= "route0" type="Car" departLane="2" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="55"  route= "route0" type="Car" departLane="2" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="56"  route= "route0" type="Car" departLane="2" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="57"  route= "route0" type="Car" departLane="2" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="58"  route= "route0" type="Car" departLane="2" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="59"  route= "route0" type="Car" departLane="2" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="60"  route= "route0" type="Car" departLane="2" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="61"  route= "route0" type="Car" departLane="2" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="62"  route= "route0" type="Car" departLane="2" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="63"  route= "route0" type="Car" departLane="2" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="64"  route= "route0" type="Car" departLane="2" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="65"  route= "route0" type="Car" departLane="2" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="66"  route= "route0" type="Car" departLane="2" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="67"  route= "route0" type="Car" departLane="2" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="68"  route= "route0" type="Car" departLane="2" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="69"  route= "route0" type="Car" departLane="2" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="70"  route= "route0" type="Car" departLane="2" departPos="random_free" departSpeed="random"/>
+<vehicle depart="0" id="71"  route= "route0" type="Car" departLane="2" departPos="random_free" departSpeed="random"/>
+</routes>
+

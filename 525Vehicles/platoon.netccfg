@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="platoon.nod.xml"/>
+        <edge-files value="platoon.edg.xml"/>
+        <type-files value="platoon.typ.xml"/>
+		<connection-files value="platoon.con.xml"/>
+    </input>
+
+    <output>
+        <output-file value="platoon.net.xml"/>
+    </output>
+
+    <processing>
+        <no-turnarounds value="true"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/connections_file.xsd">
+    <connection from="1to2" to="out" fromLane="0" toLane="0"  uncontrolled="true" pass="true"  />
+    <connection from="1to2" to="out" fromLane="1" toLane="1"  uncontrolled="true" pass="true"/>
+    <connection from="1to2" to="out" fromLane="2" toLane="2"  uncontrolled="true" pass="true"/>
+    <connection from="1to2" to="out" fromLane="3" toLane="3"  uncontrolled="true" pass="true"/>
+   
+   <connection from="out" to="1to2" fromLane="0" toLane="0"  uncontrolled="true" pass="true"/>
+   <connection from="out" to="1to2" fromLane="1" toLane="1"  uncontrolled="true" pass="true" />
+   <connection from="out" to="1to2" fromLane="2" toLane="2"  uncontrolled="true" pass="true"/>
+    <connection from="out" to="1to2" fromLane="3" toLane="3"  uncontrolled="true" pass="true"/>
+
+
+   
+
+</connections>
+
